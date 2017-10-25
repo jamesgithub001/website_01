@@ -2,6 +2,7 @@
 body {
   margin: 0 !important;
   padding: 0 !important;
+  font-family: 'Unica One', cursive;
 }
 
 #name {
@@ -11,14 +12,16 @@ body {
   font-size: 75px;
   margin-top: 123px;
   float: left;
+  clear: both;
 }
 
 #nav {
   float: right;
   padding-right: 20px;
+  /*clear: both;*/
 }
 #nav li {
-  font-family: 'Unica One', cursive;
+
   display: inline-block;
   font-size: 20px;
   color: white;
@@ -36,18 +39,29 @@ body {
   height: 100vh;
 }
 
+#gallery_pic {
+  background-image: url(images/3chips.png);
+  width: 600px;
+  height: 300px;
+  margin-top: 150px;
+  margin-left: 150px;
+  float: left;
+
+}
+
 #bio_pic {
   background-image: url(images/web01_bioPic.gif);
   background-repeat: no-repeat;
   margin-top: 10px;
   margin-right: 10px;
-  width: 368px;
+  max-width: 368px;
   height: 494px;
   float: right;
+
 }
 
 #bio_copy {
-  font-family: 'Unica One', cursive;
+  /*font-family: 'Unica One', cursive;*/
   color: #ff3399;
   margin: 500px 40px 0px 50px;
   letter-spacing: 1.25px;
